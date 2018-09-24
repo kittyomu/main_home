@@ -1,0 +1,15 @@
+#antigen.zshの読み込み
+source ~/.zsh/antigen/antigen.zsh
+
+#Load the oh-my-zsh's library.
+
+# oh-my-zsh上にあるプラグインのインストール 
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+
+# oh-my-zsh以外のzshプラグインのインストール
+# Syntax highlighting bundle.
+
+# Load the theme.
+#antigen theme robbyrussell
+# Tell antigen that you're done.
+antigen apply
