@@ -1,7 +1,7 @@
 " release autogroup in MyAutoCmd
-augroup MyAutoCmd
-  autocmd!
-augroup END
+"augroup MyAutoCmd
+"  autocmd!
+"augroup END
 
 	
 	
@@ -33,9 +33,14 @@ set ruler
 set splitbelow
 set title
 set list
+"コメントのハイライト
+"highlight Comment ctermfg=Green 
+"for flakek8
 
 
-autocmd ColorScheme * highlight LineNr ctermfg=200
+
+
+
 set clipboard=unnamed,autoselect
 
 if &term =~ "xterm"
@@ -83,10 +88,6 @@ map <C-n> :NERDTreeToggle<CR>
 
 ""Ctrl+eでpythonを実行----------------
 autocmd BufNewFile,BufRead *.py nnoremap <C-e> :!python3 %
-
-
-
-
 "おわり------------------------------------
 
 
